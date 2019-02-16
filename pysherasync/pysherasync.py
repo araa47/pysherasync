@@ -58,7 +58,7 @@ class PusherAsyncClient(object):
 	
 	async def disconnect(self):
 		try:
-			self.websocket.close()
+			await self.websocket.close()
 		except Exception as e:
 			self.logger.error("Exception: def disconnect(self) Err:%s"%(e))
 	
