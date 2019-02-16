@@ -8,7 +8,7 @@ def readme():
 
 
 setup(name='pysherasync',
-      version='0.1',
+      version='0.2',
       description='Asyncio Pusher Channels Client',
       long_description=readme(),
       long_description_content_type='text/markdown',

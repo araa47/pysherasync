@@ -82,6 +82,9 @@ MTI License - See LICENSE for details.
 
 Changelog
 ---------
-## Version 0.0.1
+## Version 0.2
+### Fix
+ - Bug fix for disconnect, added missing await  
+## Version 0.1
 ### New
  - First Working Version  
